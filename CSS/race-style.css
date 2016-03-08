@@ -1,0 +1,45 @@
+.racer_table td {
+  background-color: transparent;
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+}
+
+.racer_table .active {
+  background-color: black;
+}
+.finish {
+	border-right: thick double yellow;
+}
+
+
+#button {
+	margin: 6em;
+  background-size: 50px
+}
+
+#player1_strip .active {
+	background-color: transparent;
+	background: url(player/p1.gif-c200);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+}
+
+#player2_strip .active {
+	background-color: transparent;
+	background: url(player/p2.gif-c200);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+}
+body {
+  background: URL("backgrounds/forrest.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: 'Font', cursive;
+  color: white;
+  }
+
+@font-face {
+  font-family: Font;
+  src: url('Font.TTF');
+}
