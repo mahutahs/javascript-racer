@@ -8,12 +8,3 @@
   background-color: black;
 }
 
-#player1_strip .active {
-	background-color: transparent;
-	background-image: url(img/p1.png);
-}
-
-#player2_strip .active {
-	background-color: transparent;
-	background-image: url(img/p2.png);
-}
