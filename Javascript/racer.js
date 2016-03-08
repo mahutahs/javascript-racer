@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
   document.addEventListener("keyup",keyStroke,false);
 
 	function keyStroke(e){
-		if (e.keyCode === 80){ // 80 is q
+		if (e.keyCode === 81){ // 81 is P = Player 1
 			if(p1Score < trackLength){
 			move(p1);
 			p1Score ++;
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
 				newGame();
 			}
 		}
-		else if (e.keyCode === 81){ // 81 is p
+		else if (e.keyCode === 80){ // 80 is Q = Player 2
 			if(p2Score < trackLength){
 			move(p2);
 			p2Score ++;
@@ -64,5 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		location.reload(); //starts game again
 	}
 
+  	var button = document.getElementById('restartButton');//Adds functionality to new game button on the HTML file
+      button.addEventListener("click", restart, false);
 
-})
+  })
